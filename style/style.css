@@ -1,0 +1,48 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Serif', serif;
+background-color: #F3F1FF;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
+h2{
+    font: 24px;
+    color: #562EFF;
+
+}
+
+/* top plyer style */
+
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    width: 870px;
+
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player-name{
+    margin-left: 10px;
+}
